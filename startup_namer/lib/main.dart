@@ -15,6 +15,12 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: const Text("Startup Name Generator"),
+          actions:[
+            IconButton(
+              icon: Icon(Icons.settings),
+              onPressed: () {},
+            ),
+          ]
         ),
         body: Center(
           child: RandomWords(),
